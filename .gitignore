@@ -1,0 +1,26 @@
+node_modules/
+.env
+dist/
+build/
+vendor/
+.DS_Store
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build files
+dist/
+build/
+
+# Private keys and certificates
+*.pem
+*.key
+*.crt
+
+# System files
+.DS_Store
